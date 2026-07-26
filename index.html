@@ -207,28 +207,26 @@
             max-width: 600px;
             margin-bottom: 40px;
         }
+.hero-portrait{
+    flex: 0 0 340px;
+    max-width: 340px;
+    width: 340px;
+    height: 430px;
 
-        .hero-portrait {
-            width: 100%;
-            height: 600px;
-            background: #e0e0e0;
-            border-radius: var(--radius);
-            position: relative;
-            overflow: hidden;
-            border: 1px solid var(--wine-light);
-            /* Placeholder styling */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: linear-gradient(45deg, #eee, #fff);
-        }
+    margin: 0 auto;
 
-        .hero-portrait img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+    overflow: hidden;
+    border-radius: 25px;
 
+    box-shadow: 0 15px 40px rgba(0,0,0,.15);
+}
+
+.hero-portrait img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
         .btn-group {
             display: flex;
             gap: 20px;
@@ -511,13 +509,12 @@
                     </p>
                     <div class="btn-group">
                         <a href="#experience" class="btn btn-primary">Explore Profile</a>
-                        <a href="mailto:yuvraj.dadra@gmail.com" class="btn btn-outline">Connect Now</a>
+                       <a href="contact.html" class="btn btn-outline">Connect Now</a>
                     </div>
                 </div>
-                <div class="hero-portrait reveal">
-                    <!-- Image Placeholder: Replace src with actual professional photo -->
-                    <div style="font-family: 'Playfair Display'; color: var(--wine-light); font-size: 1.2rem;">[ PROFESSIONAL PORTRAIT ]</div>
-                </div>
+             <div class="hero-portrait reveal">
+    <img src="yuvrajimg.jpg.png" alt="Yuvraj Dadra" class="hero-image">
+</div>
             </div>
         </div>
     </section>
